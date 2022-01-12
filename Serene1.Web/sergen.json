@@ -1,0 +1,75 @@
+{
+  "RootNamespace": "Serene1",
+  "ServerTypings": {
+    "LocalTexts": true
+  },
+  "Restore": {
+    "Exclude": [
+      "/wwwroot/Scripts/serenity/Serenity.CoreLib*.*"
+    ]
+  },
+  "Connections": [
+    {
+      "Key": "Northwind",
+      "Tables": [
+        {
+          "Tablename": "region",
+          "Identifier": "Region",
+          "Module": "Testing",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "territories",
+          "Identifier": "Territories",
+          "Module": "Testing",
+          "PermissionKey": "Administration:General"
+        }
+      ]
+    },
+    {
+      "Key": "Perpustakaan",
+      "Tables": [
+        {
+          "Tablename": "anggota",
+          "Identifier": "Anggota",
+          "Module": "Perpustakaan",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "buku",
+          "Identifier": "Buku",
+          "Module": "Perpustakaan",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "peminjaman",
+          "Identifier": "Peminjaman",
+          "Module": "Perpustakaan",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "pengembalian",
+          "Identifier": "Pengembalian",
+          "Module": "Perpustakaan",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "petugas",
+          "Identifier": "Petugas",
+          "Module": "Perpustakaan",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "rak",
+          "Identifier": "Rak",
+          "Module": "Perpustakaan",
+          "PermissionKey": "Administration:General"
+        }
+      ]
+    }
+  ],
+  "UpgradeInfo": {
+    "InitialType": "Community",
+    "InitialVersion": "5.0.51.8"
+  }
+}
